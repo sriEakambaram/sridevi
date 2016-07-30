@@ -1,9 +1,15 @@
+import java.util.*;
 class Special
 {
-char c;
+  public static void main(String args[])
+  {
+Scanner s=new Scanner(System.in);
+System.out.println("enter the string");
+String s=s.next();
 int count=0;
-if(c>32 && c<42 ||c==64)
+if(s>32 && s<42 ||s==64)
 {
 count ++;
+}
 }
 }
